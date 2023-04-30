@@ -49,6 +49,8 @@ public class HotelManagementController {
         return "SUCCESS";
     }
 
+
+
     @PostMapping("/add-user")
     public Integer addUser(@RequestBody User user){
 
